@@ -36,6 +36,7 @@ $path = [
     $coordY => [$coordX => 0]
 ];
 
+// requires xdebug.max_nesting_level ~ 3000 if xdebug is enabled
 findPath($path, $heightMap, $coordY, $coordX, $targetY, $targetX);
 
 $result = PHP_INT_MAX;

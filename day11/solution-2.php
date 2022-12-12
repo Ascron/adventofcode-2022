@@ -1,5 +1,5 @@
 <?php
-$file = file('test.txt', FILE_IGNORE_NEW_LINES);
+$file = file('input.txt', FILE_IGNORE_NEW_LINES);
 
 $monkeys = [];
 $index = 0;

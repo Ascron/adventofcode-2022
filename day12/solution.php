@@ -32,6 +32,7 @@ $path = [
     $coordY => [$coordX => 0]
 ];
 
+// requires xdebug.max_nesting_level ~ 2000 if xdebug is enabled
 findPath($path, $heightMap, $coordY, $coordX);
 
 echo $path[$targetY][$targetX];
